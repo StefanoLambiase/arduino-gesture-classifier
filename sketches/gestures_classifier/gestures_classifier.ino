@@ -10,6 +10,7 @@
   - Arduino Nano 33 BLE or Arduino Nano 33 BLE Sense board.
   Created by Don Coleman, Sandeep Mistry
   Modified by Dominic Pajak, Sandeep Mistry
+  Modified by Stefano Lambiase for Embedded Systems course at UNISA
   This example code is in the public domain.
 */
 
