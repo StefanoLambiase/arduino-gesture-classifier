@@ -10,7 +10,7 @@ Link to the notebook for model creation: https://colab.research.google.com/drive
 
 ## Inspiration
 
-This project has been ispired by the work of:
+This project has been ispired by (and is based on) the work of:
  * Sandeep Mistry - Arduino
  * Don Coleman - Chariot Solutions
 
