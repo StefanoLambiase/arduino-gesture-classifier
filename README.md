@@ -1,5 +1,3 @@
-<a href="https://www.arduino.cc/"><img src="https://raw.githubusercontent.com/StefanoLambiase/arduino-gesture-classifier/main/resources/1024px-Arduino_Logo.svg.png?token=AH2LWL7SH7IFZ7CWG573JN3A53CKS" width=200/></a>
-
 # Tiny ML on Arduino: Gesture Recognition
 
 ## Introduction
