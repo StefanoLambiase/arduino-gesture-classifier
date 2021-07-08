@@ -155,18 +155,16 @@ void loop() {
 
         // Loop through the output tensor values from the model
         for (int i = 0; i < NUM_GESTURES; i++) {
-          Serial.print(GESTURES[i]);
-          Serial.print(": ");
-          Serial.println(tflOutputTensor->data.f[i], 6);
-        }
-
-        // Prints emoji based on the recognition
-        for (int i = 0; i < NUM_GESTURES; i++) {
           if (tflOutputTensor->data.f[i] > 0.8) {
-              Serial.println(EMOJIS[i]);
-              Serial.println();
+            Serial.print(GESTURES[i]);
+            Serial.print(": ");
+            Serial.println(tflOutputTensor->data.f[i], 6);
+              
+            Serial.println(EMOJIS[i]);
+            Serial.println();
           }
         }
+        
         Serial.println();
       }
     }
